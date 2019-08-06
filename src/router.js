@@ -5,6 +5,8 @@ import Test from './views/Test.vue';
 import Products from './views/Proucts_new.vue';
 import Edit from './views/Edit.vue';
 import Signup from "./views/Signup.vue";
+import Login from "./views/Login.vue";
+
 
 
 Vue.use(Router);
@@ -37,6 +39,10 @@ export default new Router({
       path: "/signup", 
       name: "signup", 
       component: Signup 
+    },
+    { path: "/login",
+      name: "login", 
+      component: Login 
     },
     {
       path: '/about',

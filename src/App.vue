@@ -6,6 +6,7 @@
       <router-link to="/products/edit">Edit</router-link> |
       <router-link to="/products/new">Create Product</router-link> |
       <router-link to="/signup">Sign Up</router-link> |
+      <router-link to="/login">Login</router-link> |
 
     </div>
     <router-view/>
