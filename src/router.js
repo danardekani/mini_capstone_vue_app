@@ -6,6 +6,7 @@ import Products from './views/Proucts_new.vue';
 import Edit from './views/Edit.vue';
 import Signup from "./views/Signup.vue";
 import Login from "./views/Login.vue";
+import Logout from "./views/Logout.vue";
 
 
 
@@ -26,12 +27,12 @@ export default new Router({
       component: Test
     },
     {
-      path: '/products/new',
+      path: '/new',
       name: 'products',
       component: Products
     },
     {
-      path: '/products/edit',
+      path: '/edit',
       name: 'edit',
       component: Edit
     },
@@ -43,6 +44,10 @@ export default new Router({
     { path: "/login",
       name: "login", 
       component: Login 
+    },
+    { path: "/logout",
+      name: "logout", 
+      component: Logout 
     },
     {
       path: '/about',
